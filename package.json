@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-background-mode-fork",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "keywords": [
     "appplant",
@@ -12,7 +12,15 @@
   "engines": [
     {
       "name": "cordova",
-      "version": ">=6.0.0"
+      "version": ">=3.0.0"
+    },
+    {
+      "name": "android-sdk",
+      "version": ">=16"
+    },
+    {
+      "name": "windows-sdk",
+      "version": ">=10.0.14393.0"
     }
   ],
   "author": "Sebastián Katzer",
