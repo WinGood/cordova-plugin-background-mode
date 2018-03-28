@@ -1,7 +1,14 @@
 {
   "name": "cordova-plugin-background-mode-fork",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
+  "cordova": {
+    "id": "cordova-plugin-background-mode-fork",
+    "platforms": [
+      "android",
+      "browser"
+    ]
+  },
   "keywords": [
     "appplant",
     "background"
