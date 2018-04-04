@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-background-mode-fork"
-        version="0.0.4">
+        version="0.0.5">
 
     <name>BackgroundMode</name>
 
@@ -67,6 +67,7 @@
 
         <config-file target="res/xml/config.xml" parent="/*">
             <preference name="KeepRunning" value="true" />
+            <preference name="AndroidLaunchMode" value="singleInstance"/>
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
